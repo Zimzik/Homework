@@ -1,0 +1,180 @@
+body {
+    background: url(pattern.png)
+}
+
+.main-title {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #333;
+    color: #999;
+}
+
+h1 {
+    text-align: center;
+}
+
+mark {
+    background: #ff2327;
+    padding: 3px;
+    border-radius: 3px;
+}
+/*Header*/
+
+header {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffc0cb;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px #777;
+}
+
+header p {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    background-color: #7fffd4;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;;
+    font-size: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+header nav ul li a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    transition: .2s all;
+    
+}
+
+header nav ul li a:hover {
+    color: #fff;
+    background: #ffa500;
+}
+
+header nav ul li a.active {
+    color: #fff;
+    background: #ffa500;
+    cursor: default;
+}
+
+/*Main*/
+
+main {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffa500;
+    padding: 10px;
+    box-shadow: 3px 3px 3px #777;
+}
+
+main::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+section {
+    width: 600px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #ffff00;
+    border-radius: 5px;
+}
+
+section h1, article h1 {
+    font-size: 25px;
+}
+
+section p, article p {
+    margin-left: 10px;
+}
+
+article {
+    width: 600px;
+    float: left;
+    background: #ee82ee;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+article figure {
+    background: #e2ffa0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.logo {
+    display: inline-block;
+    width: 30%;
+}
+
+article figure img {
+    width: 120px;
+}
+
+article figure figcaption {
+    font-size: 15px;
+    font-style: italic;
+}
+
+aside {
+    float: right;
+    width: 320px;
+    height: 630px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #99ff00;
+    margin-top: 50px;
+}
+
+aside details summary {
+    font-style: italic;
+    font-weight: bold;
+}
+
+aside details p {
+    font-style: italic;
+    margin: 0;
+}
+
+/*Footer*/
+
+footer {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 0 0 5px 5px;
+    background: #00ff5e;
+    box-shadow: 3px 3px 3px #777;
+}
+
+footer .copyright {
+    text-align: right;
+    margin-right: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
